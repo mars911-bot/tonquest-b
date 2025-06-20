@@ -1,12 +1,14 @@
 {
-  "name": "tonquest-bot",
-  "version": "1.0.0",
-  "type": "module",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
-  "dependencies": {
-    "grammy": "^1.19.2"
-  }
+    "name": "tonquest-bot",
+      "version": "1.0.0",
+        "type": "module",
+          "main": "index.js",
+            "scripts": {
+                "start": "node index.js"
+                  },
+                    "dependencies": {
+                        "grammy": "^1.19.2",
+                            "dotenv": "^16.4.5"          // if you use dotenv
+                              }
+                              }
 }
